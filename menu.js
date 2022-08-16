@@ -2,7 +2,7 @@ document.getElementById('myNav').innerHTML =
   "<div class='dropdown dropdown_desktop'>" +
   '  <button>' +
   '    <span class=icon><ion-icon name=heart></ion-icon></span>' +
-  '    <span class=text>MUSIC</span>' +
+  '    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/f64ffee1b7a9e67e7ff4b68560449c483027518f/svgs/musical-notes-outline.svg width=20><span class=text>MUSIC</span>' +
   '  </button>' +
   '  <ul>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/index.html><span class=text>Releases</span></a></li>' +
@@ -13,7 +13,7 @@ document.getElementById('myNav').innerHTML =
   '</div>' +
   "<div class='dropdown dropdown_desktop_icon'>" +
   '  <button>' +
-  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/f2c4e50a3c0abea0e9c860aa71cd0644100cf07c/img/gum-coin-4.svg width=25><span class='text'>&nbsp;Store</span>" +
+  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/f64ffee1b7a9e67e7ff4b68560449c483027518f/svgs/synth.svg width=20><span class='text'>&nbsp;Store</span>" +
   '  </button>' +
   '  <ul>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/VSTPresets.html><span class=text>VST Presets</span></a></li>' +
@@ -25,7 +25,7 @@ document.getElementById('myNav').innerHTML =
   '</div>' +
   "<div class='dropdown dropdown_mobile'>" +
   '  <button>' +
-  "    <span class='text'>SOCIALMEDIA</span>" +
+  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/f64ffee1b7a9e67e7ff4b68560449c483027518f/svgs/social.svg width=20><span class='text'>SOCIALMEDIA</span>" +
   '  </button>' +
   '  <ul>' +
   '    <li><a href=http://www.instagram.com/franticnoise target=_blank><span class=text>Instagram</span></a></li>' +
