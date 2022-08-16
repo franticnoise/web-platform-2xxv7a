@@ -1,28 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Frantic Noise</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
+
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
   </head>
   <body>
     <main>
-      <h1>
-        <img src="/img/franticlogo.png" /> <img src="/img/PLEIADIAN2.png" />
-      </h1>
-
-      <script
-        type="module"
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-      ></script>
+      <h1>Frantic Noise<br /></h1>
+      <img
+        src="https://web-platform-2xxv7a.stackblitz.io/img/franticlogo.png"
+      />
+      <img src="https://web-platform-2xxv7a.stackblitz.io/img/PLEIADIAN2.png" />
 
       <div class="wrapper">
+        <div class="dropdown dropdown_desktop">
+          <button>
+            <span class="icon"><ion-icon name="heart"></ion-icon></span>
+            <span class="text">MUSIC</span>
+          </button>
+          <ul>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <ion-icon name="person-sharp"></ion-icon>
+                </span>
+                <span class="text">Releases</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <ion-icon name="key-sharp"></ion-icon>
+                </span>
+                <span class="text">Soundcloud</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <ion-icon name="bookmark-sharp"></ion-icon>
+                </span>
+                <span class="text">Youtube</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <ion-icon name="bookmark-sharp"></ion-icon>
+                </span>
+                <span class="text">BandCamp</span>
+              </a>
+            </li>
+          </ul>
+        </div>
         <div class="dropdown dropdown_desktop_icon">
           <button>
             <span class="icon"
@@ -73,12 +111,10 @@
             </li>
           </ul>
         </div>
-        <div class="dropdown dropdown_desktop">
+
+        <div class="dropdown dropdown_mobile">
           <button>
-            <span class="icon"
-              ><ion-icon name="settings-sharp"></ion-icon
-            ></span>
-            <span class="text">MUSIC</span>
+            <span class="text">SOCIALMEDIA</span>
           </button>
           <ul>
             <li>
@@ -86,13 +122,21 @@
                 <span class="icon">
                   <ion-icon name="person-sharp"></ion-icon>
                 </span>
-                <span class="text">Releases</span>
+                <span class="text">Instagram</span>
               </a>
             </li>
             <li>
               <a href="#">
                 <span class="icon">
                   <ion-icon name="key-sharp"></ion-icon>
+                </span>
+                <span class="text">Youtube</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <ion-icon name="ion-android-cloud-circle"></ion-icon>
                 </span>
                 <span class="text">Soundcloud</span>
               </a>
@@ -102,62 +146,42 @@
                 <span class="icon">
                   <ion-icon name="bookmark-sharp"></ion-icon>
                 </span>
-                <span class="text">Youtube</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="dropdown dropdown_mobile">
-          <button>
-            <span class="icon"
-              ><ion-icon name="settings-sharp"></ion-icon
-            ></span>
-            <span class="text">MUSIC</span>
-          </button>
-          <ul>
-            <li>
-              <a href="#">
-                <span class="icon">
-                  <ion-icon name="person-sharp"></ion-icon>
-                </span>
-                <span class="text">Profile</span>
+                <span class="text">Facebook</span>
               </a>
             </li>
             <li>
               <a href="#">
                 <span class="icon">
-                  <ion-icon name="key-sharp"></ion-icon>
+                  <ion-icon
+                    name="https://unpkg.com/ionicons@5.5.1/dist/svg/logo-twitch.svg"
+                  ></ion-icon>
                 </span>
-                <span class="text">Password</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="icon">
-                  <ion-icon name="bookmark-sharp"></ion-icon>
-                </span>
-                <span class="text">Bookmark</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="icon">
-                  <ion-icon name="notifications-sharp"></ion-icon>
-                </span>
-                <span class="text">Notifications</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="icon">
-                  <ion-icon name="help-circle-sharp"></ion-icon>
-                </span>
-                <span class="text">Help</span>
+                <span class="text">Twitch</span>
               </a>
             </li>
           </ul>
         </div>
       </div>
+
+      <div class="Mainlanding">
+        <img src="svgs/mail-outline.svg" /><br>
+        <h2><a href="mailto:z1priano@gmail.com">Get in contact</a></h2>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </main>
   </body>
 </html>
+<script src="vanta/three.min.js"></script>
+<script src="vanta/vanta.net.min.js"></script>
+<script>
+  VANTA.NET({
+    el: 'body',
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.0,
+    minWidth: 200.0,
+    scale: 1.0,
+    scaleMobile: 1.0,
+  });
+</script>

@@ -5,7 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+
+    
+    
   </head>
   <body>
     <nav>
@@ -14,6 +16,21 @@
     </nav>
     <main>
       <h1>My other page</h1>
+      <img srcset="img/franticlogo.png" />
     </main>
   </body>
+  <script src="vanta/three.min.js"></script>
+  <script src="vanta/vanta.net.min.js"></script>
+    <script>
+    VANTA.NET({
+      el: 'main',
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+    });
+  </script>
 </html>

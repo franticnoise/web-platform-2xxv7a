@@ -41,12 +41,15 @@ main {
 }
 
 h1 {
+  justify-content: center;
+  text-justify: distribute-all-lines;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
+* {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
@@ -56,27 +59,27 @@ h1 {
   outline: none;
 }
 
-body{
+body {
   background: #ffffff;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: center;
   margin-top: 150px;
 }
 
-.dropdown{
+.dropdown {
   margin-right: 50px;
 }
 
-.dropdown:last-child{
+.dropdown:last-child {
   margin-right: 0;
 }
 
-.dropdown button{
+.dropdown button {
   border: 0;
-  background: #88c1e7;
+  background: #d889f0;
   color: #fff;
   padding: 16px 28px;
   width: 225px;
@@ -94,17 +97,17 @@ body{
 }
 
 .dropdown button:hover,
-.dropdown button.active{
+.dropdown button.active {
   background: #6d8fff;
 }
 
-.dropdown button .icon{
+.dropdown button .icon {
   display: flex;
   font-size: 18px;
   margin-right: 10px;
 }
 
-.dropdown ul{
+.dropdown ul {
   display: none;
   width: 225px;
   margin-top: 35px;
@@ -113,7 +116,7 @@ body{
   position: relative;
 }
 
-.dropdown ul li a{
+.dropdown ul li a {
   display: flex;
   padding: 16px 20px;
   height: 50px;
@@ -125,63 +128,83 @@ body{
   letter-spacing: 2px;
 }
 
-.dropdown ul li a .icon{
+.dropdown ul li a .icon {
   display: flex;
   margin-right: 10px;
   font-size: 18px;
 }
 
-.dropdown ul li a:hover{
+.dropdown ul li a:hover {
   background: #cfcfcf;
   color: #808080;
 }
 
-.dropdown ul li:first-child a{
+.dropdown ul li:first-child a {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
 
-.dropdown ul li:last-child a{
+.dropdown ul li:last-child a {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
-.dropdown ul:before{
-  content: "";
+.dropdown ul:before {
+  content: '';
   position: absolute;
   top: -30px;
   left: 50%;
   transform: translateX(-50%);
   border: 15px solid;
-  border-color: transparent transparent rgb(129, 201, 197) transparent;
+  border-color: transparent transparent rgb(101, 164, 247) transparent;
   z-index: 1;
 }
 
-.dropdown.dropdown_desktop .icon{
+.dropdown.dropdown_desktop .icon {
   display: none;
 }
 
-.dropdown.dropdown_desktop ul li a{
+.dropdown.dropdown_desktop ul li a {
   justify-content: center;
 }
 
 .dropdown.dropdown_mobile button,
-.dropdown.dropdown_mobile ul{
-  width: 75px;
+.dropdown.dropdown_mobile ul {
+  //width: 245px;
 }
 
-.dropdown.dropdown_mobile ul li a{
-  padding: 16px 28px
+.dropdown.dropdown_mobile ul li a {
+  justify-content: center;
+  padding: 16px 28px;
 }
 
-.dropdown.dropdown_mobile .icon{
-  margin: 0;
-  display: inline-block;
-}
-.dropdown.dropdown_mobile .text{
+.dropdown.dropdown_mobile .icon {
+  margin: 5;
   display: none;
 }
+.dropdown.dropdown_mobile .text {
+  justify-content: center;
+  //display: none;
+}
 
-.dropdown button.active + ul{
+.dropdown button.active + ul {
   display: block;
+}
+ 
+.Mainlanding {
+  border-width: 5px; border: #35012e; border-style: solid; 
+  background-color: #ffffff;
+  display: flex;
+  font-size: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  justify-content: center;
+  margin-top: 100px;
+  align-self: center;
+  box-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
