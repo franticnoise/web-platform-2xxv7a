@@ -25,7 +25,7 @@ document.getElementById('myNav').innerHTML =
   '</div>' +
   "<div class='dropdown dropdown_mobile'>" +
   '  <button>' +
-  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/52a35d7f2ca857c1fd17cdb76c59f5d24ee8d007/svgs/social2.svg width=25><span class='text'>&nbsp;SOCIALMEDIA</span>" +
+  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/204d4f06bdc58c727f1039dffe84bd1d012922af/svgs/link.svg width=25><span class='text'>&nbsp;SOCIALMEDIA</span>" +
   '  </button>' +
   '  <ul>' +
   '    <li><a href=http://www.instagram.com/franticnoise target=_blank><span class=text>Instagram</span></a></li>' +
