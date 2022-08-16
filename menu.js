@@ -13,7 +13,7 @@ document.getElementById('myNav').innerHTML =
   '</div>' +
   "<div class='dropdown dropdown_desktop_icon'>" +
   '  <button>' +
-  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/301976205b5878f7f8e5186e61a1a6ad602613fc/svgs/synth2.svg width=25><span class='text'>&nbsp;Store</span>" +
+  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/85e1d9510c35acbc47c9e3716f8061ac71ec3a88/svgs/synth3.svg width=25><span class='text'>&nbsp;Store</span>" +
   '  </button>' +
   '  <ul>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/VSTPresets.html><span class=text>VST Presets</span></a></li>' +
