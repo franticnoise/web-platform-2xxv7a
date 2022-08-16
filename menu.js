@@ -16,7 +16,7 @@ document.getElementById('myNav').innerHTML =
   "    <span class='text'>Presets</span>" +
   '  </button>' +
   '  <ul>' +
-  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/VSTpresets.html><span class=text>VST Presets</span></a></li>' +
+  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/VSTPresets.html><span class=text>VST Presets</span></a></li>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Libraries.html><span class=text>Soundbanks</span></a></li>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Templates.html><span class=text>Templates</span></a></li>' +
   "    <li><a href=https://web-platform-2xxv7a.stackblitz.io/FullCourses.html><span class='text'>Courses Webinars</span></a></li>" +

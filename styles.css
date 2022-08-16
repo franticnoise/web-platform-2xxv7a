@@ -249,6 +249,19 @@ h1 {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+.gumroadimg2 {
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  border: black;
+  border-style: solid;
+  border-width: 0px;
+  align-self: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 .Gumroad {
   font-size: 10px;
   padding: 10px;
@@ -272,7 +285,7 @@ h1 {
   border: 1px solid #000;
 }
 #container {
-  width: 600px;
+  width: 800px;
   padding: 0;
   display: table;
   border: 0px solid black;
