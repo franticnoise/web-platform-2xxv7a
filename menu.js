@@ -13,7 +13,7 @@ document.getElementById('myNav').innerHTML =
   '</div>' +
   "<div class='dropdown dropdown_desktop_icon'>" +
   '  <button>' +
-  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/main/img/gumroad-logo.png><span class='text'>Store</span>" +
+  "    <img src=https://cdn.jsdelivr.net/gh/franticnoise/web-platform-2xxv7a@main/img/gum-coin-4.svg width=25><span class='text'>&nbsp;Store</span>" +
   '  </button>' +
   '  <ul>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/VSTPresets.html><span class=text>VST Presets</span></a></li>' +
