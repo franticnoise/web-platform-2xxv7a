@@ -215,10 +215,12 @@ h1 {
 .mainlandingparent {
   display: flex;
   width: 100%;
-  text-align: center;
-  justify-content: center;
   margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
 .Mainlanding {
   border-width: 5px;
   border: #35012e;
@@ -235,22 +237,64 @@ h1 {
 }
 .gumroadimg {
   width: 100%;
+  margin: 20px;
   padding: 10px;
-}
-.Gumroad {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  //background-color: #ffffff;
-  font-size: 10px;
-  padding: 20px;
-  width: 100%;
-  position: absolute;
+  border: black;
+  border-style: solid;
+  border-width: 0px;
+  align-self: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+.Gumroad {
+  font-size: 10px;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  border-color: #000;
+  border-style: solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.gumroad-button {
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+#container {
+  width: 600px;
+  padding: 0;
+  display: table;
+  border: 0px solid black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#row {
+  display: table-row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#cell {
+  width: 300px;
+  padding: 0;
+  display: table-cell;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align-last: center;
 }
 
 .franticlogo {
@@ -281,24 +325,3 @@ h1 {
   border-style: solid;
   border-width: 0px;
 }
-
-#container {
-  width: 600px;
-  padding:0;
-  display: table;
-  border: 0px solid black;
-  text-align: center;
-  justify-content: center;
-  }
-
-#row  {
-  display: table-row;
-  }
-
-#cell {
-  width:300px;
-  padding:0;
-  
-  display: table-cell;
-  
-  }
