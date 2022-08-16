@@ -2,7 +2,7 @@ document.getElementById('myNav').innerHTML =
   "<div class='dropdown dropdown_desktop'>" +
   '  <button>' +
   '    <span class=icon><ion-icon name=heart></ion-icon></span>' +
-  '    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/763ebb809730a0698691d7edcf5b82e4c96efc5b/svgs/speaker.svg width=25><span class=text>&nbsp;MUSIC</span>' +
+  '    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/bc964904c446c13c5bdbc575f382f67873e31a67/svgs/speaker2.svg width=25><span class=text>&nbsp;MUSIC</span>' +
   '  </button>' +
   '  <ul>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/index.html><span class=text>Releases</span></a></li>' +
