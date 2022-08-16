@@ -13,7 +13,7 @@ document.getElementById('myNav').innerHTML =
   '</div>' +
   "<div class='dropdown dropdown_desktop_icon'>" +
   '  <button>' +
-  "    <span class='text'>Presets</span>" +
+  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/main/img/gumroad-logo.png><span class='text'>Store</span>" +
   '  </button>' +
   '  <ul>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/VSTPresets.html><span class=text>VST Presets</span></a></li>' +
