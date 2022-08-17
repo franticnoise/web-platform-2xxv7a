@@ -18,14 +18,14 @@ document.getElementById('myNav').innerHTML =
   '  <ul>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/VSTPresets.html><span class=text>VST Presets</span></a></li>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Libraries.html><span class=text>Soundbanks</span></a></li>' +
-  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Templates.html><span class=text>Templates</span></a></li>' +
+  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Templates.html><span class=text>Track Templates</span></a></li>' +
   "    <li><a href=https://web-platform-2xxv7a.stackblitz.io/FullCourses.html><span class='text'>Courses Webinars</span></a></li>" +
   "    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Memberships.html><span class='text'>Memberships</span></a></li>" +
   '  </ul>' +
   '</div>' +
   "<div class='dropdown dropdown_mobile'>" +
   '  <button>' +
-  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/204d4f06bdc58c727f1039dffe84bd1d012922af/svgs/link.svg width=25><span class='text'>&nbsp;SOCIALMEDIA</span>" +
+  "    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/1b84606636f330aa23c2b55683a6a575a4903739/svgs/links2.svg width=25><span class='text'>&nbsp;SOCIALMEDIA</span>" +
   '  </button>' +
   '  <ul>' +
   '    <li><a href=http://www.instagram.com/franticnoise target=_blank><span class=text>Instagram</span></a></li>' +
