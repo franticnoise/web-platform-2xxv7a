@@ -202,12 +202,12 @@ h1 {
 }
 
 .dropdown.dropdown_mobile .icon {
-  margin: 5;
+  margin: 5px;
   display: none;
 }
 .dropdown.dropdown_mobile .text {
   justify-content: center;
-  //display: none;
+  
 }
 
 .dropdown button.active + ul {
