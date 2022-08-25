@@ -6,9 +6,8 @@ document.getElementById('myNav').innerHTML =
   '  </button>' +
   '  <ul>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/index.html><span class=text>Releases</span></a></li>' +
-  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Soundcloud.html><span class=text>Soundcloud</span></a></li>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Videos.html><span class=text>Videos</span></a></li>' +
-  '   <li><a href=https://web-platform-2xxv7a.stackblitz.io/Bandcamp.html><span class=text>BandCamp</span></a></li>' +
+  '   <li><a href=https://web-platform-2xxv7a.stackblitz.io/Soundcloud.html><span class=text>Soundcloud</span></a></li>' +
   ' </ul>' +
   '</div>' +
   "<div class='dropdown dropdown_desktop_icon'>" +
