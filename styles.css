@@ -91,6 +91,7 @@ h1 {
 
 .dropdown button {
   border: 0;
+  
   background: #d889f0;
   color: #fff;
   padding: 16px 28px;
@@ -125,7 +126,7 @@ h1 {
   margin-top: 35px;
   background: #fff;
   border-radius: 3px;
-  position: relative;
+  position: absolute;
 }
 
 .dropdown ul li a {
@@ -253,7 +254,7 @@ h1 {
 .gumroadimg2 {
   width: 100%;
   margin: 20px;
-  margin-top:0px;
+  margin-top: 0px;
   padding: 10px;
   border: black;
   border-style: solid;
@@ -307,7 +308,7 @@ h1 {
   width: 300px;
   padding-left: 20px;
   padding-top: 0px;
-  padding-bottom:20px;
+  padding-bottom: 20px;
   display: table-cell;
   text-align: center;
   align-items: center;
