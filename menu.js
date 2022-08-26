@@ -5,8 +5,8 @@ document.getElementById('myNav').innerHTML =
   '    <img src=https://raw.githubusercontent.com/franticnoise/web-platform-2xxv7a/bc964904c446c13c5bdbc575f382f67873e31a67/svgs/speaker2.svg width=25><span class=text>&nbsp;MUSIC</span>' +
   '  </button>' +
   '  <ul>' +
-  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/index.html><span class=text>Releases</span></a></li>' +
-  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Videos.html><span class=text>Videos</span></a></li>' +
+  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/index.html><span class=text>CDs / EPs / Singles</span></a></li>' +
+  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Videos.html><span class=text>Party Videos</span></a></li>' +
   '   <li><a href=https://web-platform-2xxv7a.stackblitz.io/Soundcloud.html><span class=text>Soundcloud</span></a></li>' +
   ' </ul>' +
   '</div>' +
