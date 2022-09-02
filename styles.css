@@ -360,6 +360,5 @@ h1 {
 .mainiframe {
   background-color: none;
   margin-top: 20px;
-  border: 0px solid #000;
-  /* Foreground, Background */
+  border: 2px solid #000;
 }
