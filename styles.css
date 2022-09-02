@@ -219,9 +219,9 @@ h1 {
   display: flex;
   width: 100%;
   margin-top: 10px;
-  justify-content: center;
   align-items: center;
   text-align: center;
+  border: 0px solid #ffffff;
 }
 
 .Mainlanding {
@@ -241,7 +241,7 @@ h1 {
 }
 .gumroadimg {
   width: 100%;
-  margin: 20px;
+  margin: 0px;
   margin-top: 0px;
   padding: 0px;
   border: black;
@@ -301,12 +301,11 @@ h1 {
 }
 #container {
   width: 100%;
-  padding: 0;
+  padding: 0px;
   display: table;
   border: 0px solid black;
   text-align: center;
   align-items: center;
-  justify-content: center;
 }
 
 #row {
@@ -318,8 +317,9 @@ h1 {
 
 #cell {
   width: 300px;
-  padding-left: 20px;
-  padding-top: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
   padding-bottom: 20px;
   display: table-cell;
   text-align: center;
@@ -360,5 +360,5 @@ h1 {
 .mainiframe {
   background-color: none;
   margin-top: 20px;
-  border: 2px solid #000;
+  border: 0px solid #000;
 }
