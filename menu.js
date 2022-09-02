@@ -6,7 +6,7 @@ document.getElementById('myNav').innerHTML =
   '  </button>' +
   '  <ul>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/index.html><span class=text>Home</span></a></li>' +
-  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Bandcamp.html><span class=text>CDs / EPs</span></a></li>' +
+  '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Bandcamp.html><span class=text>Released Music</span></a></li>' +
   '    <li><a href=https://web-platform-2xxv7a.stackblitz.io/Videos.html><span class=text>Party Videos</span></a></li>' +
   '   <li><a href=https://web-platform-2xxv7a.stackblitz.io/Soundcloud.html><span class=text>Soundcloud</span></a></li>' +
   ' </ul>' +
