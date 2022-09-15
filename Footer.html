@@ -17,29 +17,46 @@
     li { font-size: 12px; list-style: none; list-style-position: inside; }
     a { color: #fff}
     span { padding: 4px;}
+    option, select { font-weight: bold ; color:#310462}
 
     .footer__title {font-size: 24px; font-weight: bold;}
     .footer_disclaimer { width: 30px;}
     .footer_disclaimer2 { width: 140px;}
-    .footer_payment0 { width: 90px; padding: 5px;}
-    .footer_payment1 { width: 110px; padding: 5px;}
-    .footer_payment2 { width: 50px; padding: 5px;}
-    .footer_payment3 { width: 40px; padding: 5px;}
+    .footer_payment0 { width: 60px; padding: 15px;}
+    .footer_payment1 { width: 110px; padding: 15px;}
+    .footer_payment2 { width: 50px; padding: 15px;}
+    .footer_payment3 { width: 40px; padding: 15px;}
     .copyright { font-size:14px;width:100%; text-align:center;padding-top: 20px;}
     .footer_support { text-align: center; justify-content: center;display:flex; padding: 20px;}
+    .footer_countries { font-size: 12px;}
    
 </style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
 </head>
 <body>
+    <!-- Banderitas
+    <span class="fi fi-de fis"></span>
+    <span class="fi fi-fr fis"></span>
+    <span class="fi fi-us fis"></span>
+    <span class="fi fi-za fis"></span>
+    -->
 <div style="padding:20px;">
     <div style="align-items:center;display: flex;">
         <div style="width: 60%">
-            <span>Popular in Countries:</span>
+            <span class="footer_countries">Popular in Countries:</span>
+            <span>
+                    <select name="Country" id="country" style="border-radius: 10px;padding:3px 17px 3px 17px">
+                        <option value="germany" selected>GERMANY</option>
+                        <option value="french">FRENCH</option>
+                        <option value="english">ENGLISH</option>
+                        <option value="afrikaans">AFRIKAANS</option>
+                    </select>
+        </span>
         </div>
         <div style="width:40%;display: flex; align-items: center;justify-content: right;">
-            <div><img class="footer_payment0" src="svgs/logo-visa-color.svg" alt="Payment Visa"></div>
+            <div><img class="footer_payment0" src="svgs/logo-visa-white.svg" alt="Payment Visa"></div>
             <div><img class="footer_payment2" src="svgs/logo-mastercard-color.svg" alt="Payment Master Card>"></div>
-            <div><img class="footer_payment1" src="svgs/logo-neosurf-color.svg" alt="Payment NeoSurf"></div>
+            <div><img class="footer_payment1" src="svgs/logo-neosurf-white.svg" alt="Payment NeoSurf"></div>
             <div><img class="footer_payment3" src="svgs/logo-bitcoin.svg" alt="Payment Bitcoin"></div>
         </div>
     </div>
@@ -120,11 +137,11 @@
     <div style="display:flex;text-align: center; justify-content: center;width: 100%;">
 
         <div style="text-align:center;align-items:center;display: flex; height:80px">
-            <span>FIND HELP: </span>
+            <span>FIND HELP:&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <img class="footer_disclaimer" src="svgs/logo-gamblingtherapy.svg" alt="GamblingTherapy"> 
             <span>GamblingTherapy</span>
             <img class="footer_disclaimer2" src="svgs/logo-gamblersanonymus.svg" alt="GamblersAnonymous">GamblersAnonymous
-            <span>|      </span>
+            <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <img class="footer_disclaimer" src="svgs/logo-18.svg" alt="">
             <span>YOU MUST BE AT LEAST 18 YEARS OF AGE TO PLAY  </span>
         </div>
